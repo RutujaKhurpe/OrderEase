@@ -1,0 +1,48 @@
+/* this is veg css file  */
+.main_container{
+    display: flex;
+    margin-left: 50px;
+
+}
+div .main_container{
+    width: 100%;
+    gap: 400px;
+}
+.container h2{
+margin-top: 0;
+margin-bottom: 0px;
+
+}
+ .container .DishCard {
+    height: 200px; /* Set a fixed height for the DishCard container */
+    display: flex;
+    align-items: center;
+
+    
+  }
+  
+  
+  
+  .container .DishCard > div {
+    flex: 1; /* Allow the content div to grow and shrink */
+  }
+  
+  .container h3 {
+    margin: 0; /* Remove margin */
+  }
+  
+  .container p {
+    margin: 0; /* Remove margin */
+  }
+  .btn{
+    background-color: brown;
+    color: aliceblue;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .btn:hover{
+    width:100px;
+    height: 25px;
+  }
+
+
